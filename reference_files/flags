@@ -1,0 +1,6 @@
+-s bglb.pdb
+-beta 
+-overwrite 
+-parser:protocol protocol.xml 
+-extra_res_fa pNPG.params
+
