@@ -1,8 +1,8 @@
-# Predicting effects of mutations on enzyme function, stability, and structure using a combination of molecular modeling and machine learning 
+# Predicting effects of mutations on enzyme function, stability, and structure using molecular modeling and machine learning tools
 
 ## Molecular modeling protocols
 
-Each molecular modeling protocol is a self-contained directory containing all the required scripts to run the protocol. Currently, most protocols have
+Each molecular modeling protocol is a self-contained directory containing all the required scripts to run the protocol. Currently, most (but not all) protocols have the following files:
 
 1. a `make_list.py` preprocessing script that creates the input files for parallelization 
 1. a submit script `sub.sh` to submit the parallel runs to SLURM
